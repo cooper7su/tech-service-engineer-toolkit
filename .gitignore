@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Editor and local environment
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary outputs
+*.log
+tmp/
+temp/
+out/
+output/
+
+# Script-generated support bundles
+support_bundle_*/
+support_bundle_*.tar.gz
+toolkit_audit_*/
+
+# Shell and Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# Archives generated during manual testing
+*.zip
+*.tar
+*.tar.gz
+*.tgz
